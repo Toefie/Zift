@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favicon Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 30px;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .tip {
+            background-color: #e7f4fe;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Favicon Guide for Zift</h1>
+    
+    <p>Favicons are the small icons that appear in browser tabs, bookmarks, and other areas to represent your website. Proper favicon implementation enhances brand recognition and professionalism.</p>
+    
+    <div class="tip">
+        <strong>Important:</strong> The placeholder favicon files need to be replaced with actual icon files. Text files won't display as icons in browsers.
+    </div>
+    
+    <h2>Required Favicon Files</h2>
+    <p>For optimal cross-browser and device support, you should replace these placeholder files with actual icon files:</p>
+    <ul>
+        <li><strong>favicon.ico</strong> - 16x16 and 32x32 (multi-size ICO file)</li>
+        <li><strong>favicon-16x16.png</strong> - 16x16 PNG file</li>
+        <li><strong>favicon-32x32.png</strong> - 32x32 PNG file</li>
+        <li><strong>apple-touch-icon.png</strong> - 180x180 PNG file for Apple devices</li>
+    </ul>
+    
+    <h2>How to Generate Proper Favicon Files</h2>
+    <p>You can use online tools to generate all required favicon files from your logo:</p>
+    <ol>
+        <li>Visit a favicon generator website like <a href="https://favicon.io/" target="_blank">favicon.io</a> or <a href="https://realfavicongenerator.net/" target="_blank">realfavicongenerator.net</a></li>
+        <li>Upload your logo or create a custom icon</li>
+        <li>Download the generated favicon package</li>
+        <li>Replace the placeholder files with the generated files</li>
+    </ol>
+    
+    <h2>HTML Implementation</h2>
+    <p>The following code is already added to your website's HTML head section:</p>
+    <pre>&lt;!-- Favicon --&gt;
+&lt;link rel="icon" href="favicon.ico" type="image/x-icon"&gt;
+&lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt;
+&lt;link rel="apple-touch-icon" href="apple-touch-icon.png"&gt;
+&lt;link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"&gt;
+&lt;link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"&gt;</pre>
+    
+    <div class="tip">
+        <strong>Tip:</strong> For the best favicon display, ensure your icon has a simple design that's recognizable even at small sizes. Typically, using your logo or a simplified version of it works well.
+    </div>
+</body>
+</html> 

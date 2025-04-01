@@ -1,0 +1,11 @@
+{
+  "name": "zift-website",
+  "version": "1.0.0",
+  "description": "Zift Website",
+  "scripts": {
+    "start": "live-server --port=8000 --no-browser --watch=*.html,*.css,*.js"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+} 

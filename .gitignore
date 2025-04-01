@@ -1,0 +1,21 @@
+# System Files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Local environment files
+.env
+.env.local
+
+.qodo
